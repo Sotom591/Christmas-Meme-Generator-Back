@@ -1,3 +1,3 @@
 class Mp3 < ApplicationRecord
-  belongs_to :meme, through: :meme_mp3
+  has_many :memes, through: :meme_mp3s
 end
