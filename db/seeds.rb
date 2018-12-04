@@ -17,15 +17,7 @@ mp31 = Mp3.create(artist: "Dean Martin", title: "Baby It's Cold Outside", audio:
 mp32 = Mp3.create(artist: "The Drifters", title: "White Christmas", audio: "https://soundcloud.com/thedrifters/white-christmas-11")
 mp33 = Mp3.create(artist: "Music Symphony", title: "Santa Claus is Coming to Town", audio: "https://soundcloud.com/aimsydney/santa-clause-is-coming-to-town")
 
-meme1 = Meme.create(name: "Creeper", input1: "Have yourself", input2: "a creepy Christmas")
-meme2 = Meme.create(name: "So Excited", input1: "SANTA!!!", input2: "I KNOW HIM!")
-meme3 = Meme.create(name: "OMG", input1: "When you open up a present", input2: "and it's another sweater")
 
-# MemeImage.create(meme_id: , image_id: )
-# MemeImage.create(meme_id: , image_id: )
-# MemeImage.create(meme_id: , image_id: )
-#
-#
-# MemeMp3.create(meme_id: , mp3_id: )
-# MemeMp3.create(meme_id: , mp3_id: )
-# MemeMp3.create(meme_id: , mp3_id: )
+meme1 = Meme.create(name: "Creeper", input1: "Have yourself", input2: "a creepy Christmas", image_id: 1, mp3_id: 1)
+meme2 = Meme.create(name: "So Excited", input1: "SANTA!!!", input2: "I KNOW HIM!", image_id: 3, mp3_id: 3)
+meme3 = Meme.create(name: "OMG", input1: "When you open up a present", input2: "and it's another sweater", image_id: 2, mp3_id: 2)

@@ -1,5 +1,5 @@
 class Meme < ApplicationRecord
-  belongs_to :meme_mp3
-  belongs_to :meme_image
+  belongs_to :mp3
+  belongs_to :image
 
 end
