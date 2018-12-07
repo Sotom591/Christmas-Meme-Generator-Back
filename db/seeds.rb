@@ -20,8 +20,8 @@ mp32 = Mp3.create(artist: "Snowy McSnowerson", title: "Feliz Navidad", audio: "h
 mp33 = Mp3.create(artist: "Lee Rosevere", title: "I'm Giving You My Cold For Christmas", audio: "https://ia601502.us.archive.org/1/items/Im_Giving_You_My_Cold_For_Christmas-19520/Lee_Rosevere_-_01_-_Im_Giving_You_My_Cold_For_Christmas.mp3")
 
 
-meme1 = Meme.create(name: "Creeper", input1: "Have yourself", input2: "a creepy Christmas", image_id: 1, mp3_id: 1)
-meme2 = Meme.create(name: "So Grumpy", input1: "Wasn't planning on giving gifts...", input2: "until I heard about exploding galaxy phones", image_id: 2, mp3_id: 1)
-meme3 = Meme.create(name: "So Alone", input1: "Puts cookies on table for santa", input2: "santa doesn't come", image_id: 3, mp3_id: 3)
-meme4 = Meme.create(name: "Evil", input1: "When you have to fart", input2: "and 10 people walk into the elevator", image_id: 4, mp3_id: 1)
-meme5 = Meme.create(name: "Ugly Sweaters", input1: "Ready for ugly sweater parties?!", input2: "YUP!", image_id: 5, mp3_id: 2)
+meme1 = Meme.create(name: "Creeper", input1: "Have yourself", input2: "a creepy Christmas", likes: 0, image_id: 1, mp3_id: 1)
+meme2 = Meme.create(name: "So Grumpy", input1: "Wasn't planning on giving gifts...", input2: "until I heard about exploding galaxy phones", likes: 0, image_id: 2, mp3_id: 1)
+meme3 = Meme.create(name: "So Alone", input1: "Puts cookies on table for santa", input2: "santa doesn't come", likes: 0, image_id: 3, mp3_id: 3)
+meme4 = Meme.create(name: "Evil", input1: "When you have to fart", input2: "and 10 people walk into the elevator", likes: 0, image_id: 4, mp3_id: 1)
+meme5 = Meme.create(name: "Ugly Sweaters", input1: "Ready for ugly sweater parties?!", input2: "YUP!", likes: 0, image_id: 5, mp3_id: 2)

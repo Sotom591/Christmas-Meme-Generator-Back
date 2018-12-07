@@ -4,6 +4,7 @@ class CreateMemes < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :input1
       t.string :input2
+      t.integer :likes
       t.integer :image_id
       t.integer :mp3_id
       t.timestamps

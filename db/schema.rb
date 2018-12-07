@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2018_12_04_143716) do
     t.string "name"
     t.string "input1"
     t.string "input2"
+    t.integer "likes"
     t.integer "image_id"
     t.integer "mp3_id"
     t.datetime "created_at", null: false

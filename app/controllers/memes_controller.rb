@@ -22,6 +22,6 @@ class MemesController < ApplicationController
 private
 
   def meme_params
-    params.require(:meme).permit(:name, :input1, :input2, :image_id, :mp3_id)
+    params.require(:meme).permit(:name, :input1, :input2, :likes, :image_id, :mp3_id)
   end
 end
